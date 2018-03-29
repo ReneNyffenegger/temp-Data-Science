@@ -1,7 +1,8 @@
-Risk management
-
 Mathematics
    statistics and probability, calculus centered around partial differential equations, linear algebra, discrete mathematics, and econometrics. 
+
+
+Risk management
 
 "Data Science Software Engineer"
 
@@ -21,6 +22,8 @@ https://en.wikipedia.org/wiki/Standardized_moment
   Another meausre of dispersion is the *standard variation*
   The third measure of dispersion is *skewness*
   The fourth measure of dispersion is *kurtosis* (a measure of the "fatness" of the tails of a pmf or pdf.)
+  -
+  central tendency (or location) seeks to characterize the distribution's central or typical value, while dispersion (or variability) characterizes the extent to which members of the distribution depart from its center and each other. 
 
 https://en.wikipedia.org/wiki/Probability_distribution
 → science/mathematics/probability/distributions/index
@@ -48,6 +51,9 @@ GNU Octave: A free general-purpose and matrix-oriented programming-language for 
   Quadratic programming in GNU Octave is available via its qp command
 
 Matlab
+
+Random variables 
+  → science/mathematics/statistics/model
 
 Big Data Platforms
   Hadoop
@@ -79,6 +85,15 @@ Quantitative portfolio experience
    Matlab
    ILS
 
+cross validation
+
+ANOVA, Chi-Squared test, students t-test
+
+Statistical model (→ science/mathematics/statistics/model)
+  All statistical hypothesis tests and all statistical estimators are derived from statistical models.
+  More generally, statistical models are part of the foundation of statistical inference.
+  Parametric model
+
 CV:
 
   Developers are called Quants
@@ -103,6 +118,7 @@ CV:
   - collect data -> clean data -> exploratory data analysis -> models and algorithms -> communicate/visualize/reports -> make decision
   - anomaly detection
   - data dredging, data fishing, data snooping, data archaeology
+  - modeling
   - data preparation (TODO: might compromise confidentially and privacy) -> modeling -> evaluation -> result validation -> deployment
   - regression, summarization, clustering, classification
   - Trying to find relationships between variables.
