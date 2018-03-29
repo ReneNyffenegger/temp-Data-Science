@@ -1,0 +1,115 @@
+Risk management
+
+Mathematics
+   statistics and probability, calculus centered around partial differential equations, linear algebra, discrete mathematics, and econometrics. 
+
+"Data Science Software Engineer"
+
+Bayes theorem
+
+Regression analysis
+
+Neural networks
+
+cluster analysis
+
+genetic algorithms
+
+https://en.wikipedia.org/wiki/Statistical_dispersion
+https://en.wikipedia.org/wiki/Standardized_moment
+  is measured by the *variance*
+  Another meausre of dispersion is the *standard variation*
+  The third measure of dispersion is *skewness*
+  The fourth measure of dispersion is *kurtosis* (a measure of the "fatness" of the tails of a pmf or pdf.)
+
+https://en.wikipedia.org/wiki/Probability_distribution
+→ science/mathematics/probability/distributions/index
+
+decision trees and decision rules
+
+support vector machines
+
+Probability:
+  https://en.wikipedia.org/wiki/Glossary_of_probability_and_statistics
+
+Relational Databases
+  SQL
+
+In mathematics, computer science and operations research, mathematical optimization or mathematical programming, alternatively spelled optimisation, is the selection of a best element (with regard to some criterion) from some set of available alternatives.[1]
+
+ETL
+
+R
+  RStudio Shiny
+
+Python, Fortran, VBA (Excel!)
+
+GNU Octave: A free general-purpose and matrix-oriented programming-language for numerical computing, similar to MATLAB.
+  Quadratic programming in GNU Octave is available via its qp command
+
+Matlab
+
+Big Data Platforms
+  Hadoop
+  Spark
+
+Applying statistical models
+
+Machine learning
+   NLP
+   Anomaly Detection
+   Time Series analysis
+   Customer Segmentation
+   Deep learning
+
+Exploratory and confirmatory data analysis
+
+Numerical methods
+  - Finite difference method – used to solve partial differential equations;
+  - Monte Carlo method – Also used to solve partial differential equations, but Monte Carlo simulation is also common in risk management;
+  - Ordinary least squares – used to estimate parameters in statistical regression analysis;
+  - Spline interpolation – used to interpolate values from spot and forward interest rates curves, and volatility smiles;
+  - Bisection, Newton, and Secant methods – used to find the roots, maxima and minima of functions (e.g. internal rate of return.)
+
+
+****
+
+Quantitative portfolio experience
+   Quantitative modelling
+   Matlab
+   ILS
+
+CV:
+
+  Developers are called Quants
+
+  - culling through vast amount of data.
+  - validata patterns
+  - first: quantiative analysis -> formulate strategy
+  - number crunching
+  - making rational, fact based decisions.
+  - create model, then develop computer program that applies model to historic (market) data
+    Backtest model
+    -> Then implement system in realtime markets.
+  - discover counterintuitive patterns
+  - Exploit predictive patterns in historical data
+  - calculate the optimal probability of executing a profitable trade
+  - Overcome emotions such as fear or greed which stifle rational thinking
+  - A Quant specializes in the application of mathematical and statistical methods
+  - C++, VBA
+  - Stress Test
+  - bridge the gap between software developer and quantitative analysts.
+  - statistics and probability, calculus centered around partial differential equations, linear algebra, discrete mathematics, and econometrics. 
+  - collect data -> clean data -> exploratory data analysis -> models and algorithms -> communicate/visualize/reports -> make decision
+  - anomaly detection
+  - data dredging, data fishing, data snooping, data archaeology
+  - data preparation (TODO: might compromise confidentially and privacy) -> modeling -> evaluation -> result validation -> deployment
+  - regression, summarization, clustering, classification
+  - Trying to find relationships between variables.
+  - computer (Monte-carlo) simulations
+  - stochastic programming
+  -
+
+
+
+
