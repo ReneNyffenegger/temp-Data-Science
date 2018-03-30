@@ -1,20 +1,211 @@
+STATISTICAL SIGNIFICANCE TESTING / Hypothesis tests 
+
+   All statistical hypothesis tests and all statistical estimators are derived from statistical models. 
+
+   Null hypothesis testing is a reductio ad absurdum argument adapted to
+   statistics. In essence, a claim is assumed valid if its counter-claim is
+   improbable.
+
+   As such, the only hypothesis that needs to be specified in this test and
+   which embodies the counter-claim is referred to as the null hypothesis (that
+   is, the hypothesis to be nullified)
+
+   A result is said to be statistically significant if it allows us to reject
+   the null hypothesis.
+
+   That is, as per the reductio ad absurdum reasoning, the statistically
+   significant result should be highly improbable if the null hypothesis is
+   assumed to be true. 
+
+   Hypothesis testing requires constructing a statistical model of what the
+   data would look like, given that chance or random processes alone were
+   responsible for the results. 
+   - The hypothesis that chance alone is responsible for the results is called the null hypothesis. 
+   - The model of the result of the random process is called the *distribution under the null hypothesis.*
+
+   Null hypothesis
+     - Rejecting or disproving the null hypothesis—and thus concluding that
+       there are grounds for believing that there is a relationship between two
+       phenomena (e.g. that a potential treatment has a measurable effect)—is a
+       central task in the modern practice of science; 
+     - The null hypothesis is generally assumed to be true until evidence indicates otherwise. In statistics, it is often denoted H₀ (read “H-nought”, "H-null", "H-oh", or "H-zero").
+
+
+   one tailed / two tailed tests
+     -  one-tailed test and a two-tailed test are alternative ways of computing the statistical significance of a parameter inferred from a data set, in terms of a test statistic. 
+     - Alternative names are one-sided and two-sided tests; 
+     - One-tailed tests are used for asymmetric distributions that have a
+       single tail, such as the chi-squared distribution,
+       or for one side of a distribution that has two tails, 
+       - or one side of a distribution that has two tails, such as the normal distribution, which is common in estimating location;
+     - Two-tailed tests are only applicable when there are two tails, such as in the normal distribution, and correspond to considering either direction significant
+
+   p-value ( or probability value or asymptotic significance )
+       - The probability, assuming the null hypothesis is true, of observing a result at least as extreme as the test statistic.
+       - is the probability for a given statistical model that,
+         when the null hypothesis is true, the statistical summary (such as the
+         sample mean difference between two compared groups) would be the same as
+         or of greater magnitude than the actual observed results.
+       - The p-value is used in the context of null hypothesis testing in order to quantify the idea of statistical significance of evidence.
+       - The p-value is defined as the probability, under the null hypothesis, of obtaining a result equal to or more extreme than what was actually observed.
+       - The smaller the p-value, the higher the significance because it tells the investigator that the hypothesis under consideration may not adequately explain the observation.
+       - The p-value does not, in itself, support reasoning about the probabilities of hypotheses but is only a tool for deciding whether to reject the null hypothesis.
+       - computing a p-value requires a 
+         - null hypothesis,
+         - a test statistic (together with deciding whether the researcher is performing a one-tailed test or a two-tailed test)
+         - and data.
+       - The p-value was introduced by Karl Pearson[6] in the Pearson's chi-squared test, where he defined P (original notation) as the probability that the statistic would be at or above a given level
+       - E-value which is the expected number of times in multiple testing that
+         one expects to obtain a test statistic at least as extreme as the one
+         that was actually observed if one assumes that the null hypothesis is
+         true. The E-value is the product of the number of tests and the
+         p-value.
+
+    p-curve
+       - The distribution of p-values for a group of studies is called a p-curve
+       - The curve is affected by four factors:
+         - the proportion of studies that examined false null hypotheses,
+         - the power of the studies that investigated false null hypotheses,
+         - the alpha levels,
+         - and publication bias.
+       - A p-curve can be used to assess the reliability of scientific literature, such as by detecting publication bias or p-hacking.
+
+   Level of significance: α
+     The null hypothesis H is rejected if any of these
+     probabilities (p-values?) is less than or equal to a small, fixed but arbitrarily
+     pre-defined threshold value α, which is
+     referred to as the level of significance.
+
+   test-statistic
+      - A test statistic is the output of a scalar function of all the observations. (a single number, such as average or correlation coefficient)
+      - test statistic might be "number of alternations" (that is, the number of times when H followed T or T followed H), which is one-tailed.
+      - The test-statistics  summarizes the characteristics of the data
+      - the test statistic follows a distribution determined by the function used to define that test statistic and the distribution of the input observational data.
+      - Even though computing the test statistic on given data may be easy, computing the sampling distribution under the null hypothesis, and then computing its cumulative distribution function (CDF) is often a difficult problem
+      - the p-value depends completely on the test statistic used and illustrates that p-values can only help researchers to reject a null hypothesis, not consider other hypotheses. (coin flipped with outcome HTHTHTHTHT)
+      - Many hypothesis tests use a test statistic, such as the t-statistic in a t-test. 
+      - Two widely used test statistics are the t-statistic and the F-test.
+      - An important property of a test statistic is that its sampling distribution under the null hypothesis must be calculable, either exactly or approximately, which allows p-values to be calculated
+      - One-sample tests are appropriate when a sample is being compared to the population from a hypothesis. The population characteristics are known from theory or are calculated from the population.
+      - Two-sample tests are appropriate for comparing two samples, typically experimental and control samples from a scientifically controlled experiment.
+      - Paired tests are appropriate for comparing two samples where it is impossible to control important variables. Rather than comparing two sets, members are paired between samples so the difference between the members becomes the samp
+      - Z-tests are appropriate for comparing means under stringent conditions regarding normality and a known standard deviation.
+      - A t-test is appropriate for comparing means under relaxed conditions (less is assumed).
+      - Chi-squared tests for variance are used to determine whether a normal population has a specified variance. The null hypothesis is that it does.
+      - Chi-squared tests of independence are used for deciding whether two variables are associated or are independent  The variables are categorical rather than numeric. It can be used to decide whether left-handedness is correlated with libertarian politics (or not). The null hypothesis is that the variables are independent. The numbers used in the calculation are the observed and expected frequencies of occurrence (from contingency tables).
+      - Chi-squared goodness of fit tests are used to determine the adequacy of curves fit to data. The null hypothesis is that the curve fit is adequate. It is common to determine curve shapes to minimize the mean square error, so it is appropriate that the goodness-of-fit calculation sums the squared errors.
+      - F-tests (analysis of variance, ANOVA) are commonly used when deciding whether groupings of data by category are meaningful. If the variance of test scores of the left-handed in a class is much smaller than the variance of the whole class, then it may be useful to study lefties as a group. The null hypothesis is that two variances are the same – so the proposed grouping is not meaningful.
+      - G-test
+
+       Exact tests vs non exact tests
+         - Fischer's test is exact.
+
+
+
+
+   Size
+       For simple hypotheses, this is the test's probability of incorrectly
+       rejecting the null hypothesis. The false positive rate. For composite
+       hypotheses this is the supremum of the probability of rejecting the null
+       hypothesis over all cases covered by the null hypothesis.
+
+    Tests:
+      - z-test for normal distribution,
+      - t-test for Student's t-distribution,
+      - f-test for f-distribution     
+      - Fisher's exact test
+        - The test is useful for categorical data that result from classifying objects in two different ways; it is used to examine the significance of the association (contingency) between the two kinds of classification
+          -> So in Fisher's original example, one criterion of classification could be whether milk or tea was put in the cup first; the other could be whether Bristol thinks that the milk or tea was put in first.
+    
+      statistical tests including Pearson's chi-squared test, the G-test, , and Barnard's test,
+
+  { Experimental design
+
+    - Choose model (the null hypthesis)
+    - Choose significance level (α), typically 5% or 1%
+    - Collect data
+    - measuring how likely the particular set of data is, assuming the null hypothesis is true, 
+    - if p < α then H is rejected
+
+  }
+
+  { statistical significance
+
+    Many statistical tests deliver a p-value, the probability that a given result could be obtained, assuming random coincidence.
+
+    Statistical significance plays a pivotal role in statistical hypothesis
+    testing. It is used to determine whether the null hypothesis should be
+    rejected or retained.
+
+    THUS, it becomes the arbitrator of TRUTH.
+  
+    In statistical hypothesis testing,[1][2] a result has statistical
+    significance when it is very unlikely to have occurred given the null
+    hypothesis.
+  
+    a study's defined significance level, α, is the probability of the study
+    rejecting the null hypothesis, given that it were true;[4] and the p-value of
+    a result, p, is the probability of obtaining a result at least as extreme,
+    given that the null hypothesis were tru
+  
+    The result is statistically significant, by the standards of the study, when p < α
+  
+    The significance level for a study is chosen before data collection, and typically set to 5%[12] or much lower, depending on the field of study.
+  }
+
+  { Controversy
+
+    Significance testing: 
+      Karl Pearson (p-value, Pearson's chi-squared test),
+      William Sealy Gosset (Student's t-distribution), and
+      Ronald Fisher ("null hypothesis", analysis of variance, "significance test"),
+
+    hypothesis testing 
+      Jerzy Neyman and
+      Egon Pearson
+
+    Fisher popularized the "significance test". He required a null-hypothesis (corresponding to a population frequency distribution) and a sample.
+
+    Significance testing did not utilize an alternative hypothesis so there was no concept of a Type II error.
+
+    Hypothesis testing (and Type I/II errors) was devised by Neyman and Pearson as a more objective alternative to Fisher's p-value,
+
+
+
+  }
+
+
+{ Bayes factor
+
+  = Bayesian Hypothesis testing ???
+
+  - the use of Bayes factors is a Bayesian alternative to classical hypothesis testing
+  - Bayesian model comparison is a method of model selection based on Bayes factors. 
+
+}
+
 Mathematics
    statistics and probability, calculus centered around partial differential equations, linear algebra, discrete mathematics, and econometrics. 
 
 
-Risk management
 
-"Data Science Software Engineer"
+contingency tables {
 
-Bayes theorem
+  - Fisher's exact test is a statistical significance test used in the analysis of contingency tables.
 
-Regression analysis
+}
+ Pearson correlation
+ 10 types of regression
+ clustering algorithms
+ expert systems
+ logic programming
+ linear programming
+ data parsing
+ data profiling
+ transformations to a different structure for various machine learning algorithms
+ various metrics of model performance evaluation?
 
-Neural networks
-
-cluster analysis
-
-genetic algorithms
+Poisson distribution typical for radioactive decay 
 
 https://en.wikipedia.org/wiki/Statistical_dispersion
 https://en.wikipedia.org/wiki/Standardized_moment
@@ -24,6 +215,11 @@ https://en.wikipedia.org/wiki/Standardized_moment
   The fourth measure of dispersion is *kurtosis* (a measure of the "fatness" of the tails of a pmf or pdf.)
   -
   central tendency (or location) seeks to characterize the distribution's central or typical value, while dispersion (or variability) characterizes the extent to which members of the distribution depart from its center and each other. 
+
+Naive Bayes
+
+frequency distribution
+
 
 https://en.wikipedia.org/wiki/Probability_distribution
 → science/mathematics/probability/distributions/index
@@ -94,6 +290,46 @@ Statistical model (→ science/mathematics/statistics/model)
   More generally, statistical models are part of the foundation of statistical inference.
   Parametric model
 
+Econometricians try to find estimators that have desirable statistical properties including unbiasedness, efficiency, and consistency.
+
+
+Bayes theorem = Satz von Bayes {
+
+  - One of the many applications of Bayes' theorem is Bayesian inference, a particular approach to statistical inference.
+
+}
+  
+
+Regression analysis
+
+Neural networks
+
+cluster analysis
+   https://www.statmethods.net/advstats/cluster.html 
+
+http://deeplearning.net/tutorial/gettingstarted.html
+
+genetic algorithms
+  In a word, genetic algorithms optimize. They can find better answers to a question, but not solve new questions.
+
+  Genetic algorithm, in artificial intelligence, a type of evolutionary
+  computer algorithm in which symbols (often called “genes” or “chromosomes”)
+  representing possible solutions are “bred.” This “breeding” of symbols
+  typically includes the use of a mechanism analogous to the crossing-over
+  process in genetic recombination and an adjustable mutation rate. A fitness
+  function is used on each generation of algorithms to gradually improve the
+  solutions in analogy to the process of natural selection.
+
+  One difficulty often encountered in genetic programming is that of the
+  algorithms becoming stuck in the region of a reasonably good solution (a
+  “locally optimal region”) rather than finding the best solution (a “global
+  optimum”). Overcoming such evolutionary dead ends sometimes requires human
+  intervention. In addition, genetic programming is computationally intensive. 
+
+  http://analyticscosm.com/how-to-become-a-data-scientist-2/
+
+"Data Science Software Engineer"
+
 CV:
 
   Developers are called Quants
@@ -109,6 +345,12 @@ CV:
   - discover counterintuitive patterns
   - Exploit predictive patterns in historical data
   - calculate the optimal probability of executing a profitable trade
+  - curious
+  - software / architecture
+  - crunching numbers
+  - ETL
+  - Database background
+  - communicator: explain and present result (insight) to stake holders
   - Overcome emotions such as fear or greed which stifle rational thinking
   - A Quant specializes in the application of mathematical and statistical methods
   - C++, VBA
@@ -116,6 +358,7 @@ CV:
   - bridge the gap between software developer and quantitative analysts.
   - statistics and probability, calculus centered around partial differential equations, linear algebra, discrete mathematics, and econometrics. 
   - collect data -> clean data -> exploratory data analysis -> models and algorithms -> communicate/visualize/reports -> make decision
+  - data parsing and profiling
   - anomaly detection
   - data dredging, data fishing, data snooping, data archaeology
   - modeling
@@ -126,6 +369,23 @@ CV:
   - stochastic programming
   -
 
+   o Conduct undirected research and frame open-ended industry questions
+
+   o Extract huge volumes of data from multiple internal and external sources
+
+   o Employ sophisticated analytics programs, machine learning and statistical methods to prepare data for use in predictive and prescriptive modeling
+
+   o Thoroughly clean and prune data to discard irrelevant information
+
+   o Explore and examine data from a variety of angles to determine hidden weaknesses, trends and/or opportunities
+
+   o Devise data-driven solutions to the most pressing challenges
+
+   o Invent new algorithms to solve problems and build new tools to automate work
+
+   o Communicate predictions and findings to management and IT departments through effective data visualizations and reports
+
+   o Recommend cost-effective changes to existing procedures and strategies
 
 
 
