@@ -238,15 +238,9 @@ In mathematics, computer science and operations research, mathematical optimizat
 
 ETL
 
-R
-  RStudio Shiny
 
-Python, Fortran, VBA (Excel!)
 
-GNU Octave: A free general-purpose and matrix-oriented programming-language for numerical computing, similar to MATLAB.
-  Quadratic programming in GNU Octave is available via its qp command
 
-Matlab
 
 Random variables 
   → science/mathematics/statistics/model
@@ -264,7 +258,23 @@ Machine learning
    Customer Segmentation
    Deep learning
 
-Exploratory and confirmatory data analysis
+Text
+  NLP
+  Text segmentation
+  Word clouds
+
+
+Data analysis
+ - Exploratory and confirmatory data analysis
+ - Structured and unstructred data sets
+
+Challenges:
+ - Persuade that the suggested project worth to invest time on.
+ - Interpret results to business people.
+ - Sometimes analysis leads to dead-end (you can't find something that it is not there)
+ - Data cleaning can take more time than expected.
+
+
 
 Numerical methods
   - Finite difference method – used to solve partial differential equations;
@@ -302,10 +312,13 @@ Bayes theorem = Satz von Bayes {
 
 Regression analysis
 
+
 Neural networks
 
 cluster analysis
    https://www.statmethods.net/advstats/cluster.html 
+
+Association rules
 
 http://deeplearning.net/tutorial/gettingstarted.html
 
@@ -330,7 +343,43 @@ genetic algorithms
 
 "Data Science Software Engineer"
 
+- Social Media Analysis
+- Google Analytics
+
+DBs
+  - MongoDB (noSQL)
+  - Neo4j (Graph Database)
+
+Programming Languages
+  - Python
+  - VBA (Excel!)
+  - R
+    - RStudio Shiny
+  - Matlab
+    - GNU Octave: A free general-purpose and matrix-oriented programming-language for numerical computing, similar to MATLAB.
+       ( Quadratic programming in GNU Octave is available via its qp command )
+  - SAP HANA (?) - Machine Learning (?)
+  - C++
+  - 
+  - Fortran
+
+Tools
+  - Reporting
+    - Tableau
+    - SAP Lumira
+    - PowerBI
+  - SQL Server
+    - SSIS
+    - SSAS
+    - SSRS
+
 CV:
+  o I am a passionate data scientist with a strong background in mathematics, statistics, artificial intelligence, data management and computer programming.
+  o Python, R, SQL, Big Data.
+  o I'm not bound to a particular technology or stack: no matter where the data comes from, my main focus is on the value I can generate with it for my organization.
+  o I believe in continuous education to be able to constantly bring value - the tools and best practices that I will use in five years are not going to be the same I'm using today.
+  o I am innovative, curious and data driven
+  o I use a top-down approach that starts from a clear definition and understanding of business goals and only than brings data, algorithms and tools into the picture to solve real problems.
 
   Developers are called Quants
 
@@ -346,6 +395,7 @@ CV:
   - Exploit predictive patterns in historical data
   - calculate the optimal probability of executing a profitable trade
   - curious
+  - gain a holistic 360° view of its customer base and apply it to its core processes
   - software / architecture
   - crunching numbers
   - ETL
@@ -370,6 +420,15 @@ CV:
   - stochastic programming
   - interest to learn more
   - Data alchemist
+  - applying analytical tools to different kinds of data can bring value for people
+  - In the past years, I've worked on projects with many different types of data, like images, videos, text, graphs, biometric data, biological data etc.
+  - Data Analysis Pipeline ( Data collection, preparation, exploration. )
+    - From data collection, to its
+      cleaning and pre-processing, / Cleaning noisy datasets
+      extracting features,
+      applying machine learning and statistical techniques:
+      I've had
+      the opportunity to experience all the points of the data analysis pipeline. 
 
    o Conduct undirected research and frame open-ended industry questions
 
@@ -388,6 +447,7 @@ CV:
    o Communicate predictions and findings to management and IT departments through effective data visualizations and reports
 
    o Recommend cost-effective changes to existing procedures and strategies
+
 
 
 
