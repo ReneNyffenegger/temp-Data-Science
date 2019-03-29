@@ -1,0 +1,19 @@
+dispersion, aka variability, scatter, spread
+
+The extent to which a distirbution is stretched or squeezed.
+
+Statistical measures of dispersion with the same unit as the quantity measured are:
+  - variance
+  - standard deviation
+  - interquartile range
+  - range
+  - mean asbolute difference (aka Gini mean absolute difference)
+  - median absolute deviation (MAD)
+  - Average absolute deviation (or simply "average deviation")
+  - Distance standard deviation
+
+Some dimensionless measures of the dispersion are
+  - Coefficient of variation
+  - quartile coefficient of dispersion
+  - relative mean difference (equal to twice the Gini coefficient)
+  - entropy
