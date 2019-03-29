@@ -1,0 +1,10 @@
+mean:                (or expected value) the weighted average of the possible values (probabilities are weights)
+median:              ....
+variance:            second moment of the pmf or pdf about the mean. Measure of a distribution's dispersion.
+skewness:            A measure of the extent to which a pmf or pdf leans to one side of its mean. The third standardized moment of the distribution.
+kurtosis:            a measure of the fatness of the tails of a pmf or pdf. The fourth standardized moment of the distribution
+standard deviation:  square root of the variance - another measure of dispersion. 
+mode:               (discrete random variable): value with highest probability
+support:             the smalles closed set whose complement has probability zero.
+head:                range of values where pmf or pdf is relatively high
+tail:                the complement of the head within the support, the large set of tvalues where the pmf or pdf is relatively low.
