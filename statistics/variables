@@ -1,0 +1,39 @@
+Variable:
+  - property of an event (such as a championship) or object (such as a person)
+  
+Independent vs dependent variables.
+  Generally:
+    the independent variable is manipulated by an experimenter and
+    the effect on the dependen variable is meassured
+    
+    
+Levels of independent variabl
+   for example
+      - experimental and control group (2 levels)
+      - comparing 5 products has 5 levels.
+   levels = number of experimental conditions.
+   
+Qualitiative (categorical) vs quantitative variables.
+  - qualitative (aka categorical)
+       - No natural sense of ordering
+       - no addition/subtraction
+            -> nominal scale
+            
+            
+Levels of measurement
+  - Nominal scale
+      - labels
+      - no addtion/subtraction
+      - no natural sense of ordering.
+  - Ordinal scale
+       - ordered, but no (sense of) distance
+           (for example: very poor, poor, average, good, very good)
+  - Interval scale
+       - numeric scale with sense of distance
+       - Unlike ratio scale, interval scales don't have zero point (multiplication not allowd)
+       example: temparature(???) ( 30 deg C is not 2 * 15 deg C)
+  - Ratio scale
+       - numeric scale
+       - has z zero point (--> multiplication is allowed)
+       example: weight (person of 80 kg weighs twice that of person of 40 kg)
+       
