@@ -1,0 +1,9 @@
+First statistical hypothesis testing
+------------------------------------
+   Null hyptohesis: are male and female birhts equally likely?
+   
+   Tested in the 1700s by John arbuthnot (and later by Pierre-Simon Laplace):
+   1629 - 1710: In all of the 82 years, more males born in London than females.
+   With valid null hypothesis, the likelyhood for this outcome 0.5^82 (= p-value)
+   
+   
