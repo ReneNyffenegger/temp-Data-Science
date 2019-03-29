@@ -1,2 +1,21 @@
 Statistics include numerical facts and figures (largest eaarthquake etc.).
 The study of statistics involves math and relies upon calculations of numbers.
+
+A basic division of statistics is:
+  Descriptive statistics vs infernential statistics.
+     descriptiv:
+        summarize and describe data.
+          - mean, min, max, count(*)
+     inferential:
+        draw inferences about POPOLATION from a smaller SAMPLE.
+        
+Random sampling vs random assignment.
+  Random assignment:
+     Division of the sample into two groups (experimental and control group).
+     - critical for the validity of an experiment.
+     - failure to assign subjects randomly to groups is generally more serious than having a non-random sample:
+         it invalidates the experimental findings
+         However, failure to randomize entire sample only restricts the generability of the results.
+         
+Biased sample:
+  - will likely have groups from the population over-represented or under-represented due to systematic sampling factors. 
