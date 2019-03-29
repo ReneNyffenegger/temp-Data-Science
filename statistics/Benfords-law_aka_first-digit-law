@@ -1,0 +1,66 @@
+
+
+Distribution:
+  P(d) = log10(d+1) - log10(d) = log10( (d+1) / d) = log10 (1 + 1/d)
+    d    P(d)   2nd digit  3rd digit
+    --------------------------------
+    0:    n/a       12.0%      10.2%
+    1:  30.1%       11.4%      10.1%
+    2:  17.6%       10.9%      10.1%
+    3:  12.5%       10.4%      10.1%
+    4:   9.7%       10.0%      10.0%
+    5:   7.9%        9.7%      10.0%
+    6:   6.7%        9.3%       9.9%
+    7:   5.8%        9.0%       9.9%
+    8:   5.1%        8.8%       9.9%
+    9:   4.6%        8.5%       9.8%
+ 
+ This distribution is found if log(x) is uniformly and randomly distributed. 
+ 
+ 
+ Moments of random variables for first digits following Benford's law:
+    - mean:      3.440
+    - variance:  6.057
+    - slewmess:  0.806
+    - kurtosis: -0.548
+
+Moments of random variables for first and second digits following Benford's law:
+    - mean:       38.590
+    - variance:  621.832
+    - slewmess:    0.772
+    - kurtosis:   -0.547
+
+ 
+ Additive fluctuations do not lead to Benford's law, they lead to normal probability distributions.
+ Mulitplicative fluctations to lead to Benford's law.
+ 
+ Distributions where Benford's law is expected and unexpected
+    exptected
+       - mean is greater than the median and the skew is positive
+       - Numbers that result from mathematical combination of numbers: e.g. quantity × price
+       - Transaction level data: e.g. disbursements, sales
+       - Numbers produced when doing any multiplicative calculations with an
+         Oughtred slide rule, since the answers naturally fall into the right logarithmic distribution.
+         
+    not expected
+       - sequentially assigned numbers (invocie numbers...)
+       - Numbers influenced by human (psychological) thought ($1.99)
+       - Numbers with minimum and/or maximum
+       - No transaction recorded
+ 
+ Detecting fraud:
+   In 1972, Hal Varn suggested that the law could be used to detect possible fraud
+   in lists of socio-economic data submitted in support of public planning decisions.
+  (People who fabricate figures tend to distribute their digits fairly uniformly,)
+   Mark Nigrini showed that Benford's Law could be used in forensic accounting and auditing
+   as an indicator of accounting and expenses fraud
+   
+   --> 2009 Iranien elections
+    
+   
+ 
+ Special observations:
+   The height of adult humans almost always starts with a 1 or 2 when measured in meters
+   It almost always starts with 4, 5, 6, or 7 when measured in feet.
+   
+   Telephone directories violate Benford's law because the numbers have a mostly fixed length
