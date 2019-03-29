@@ -1,0 +1,10 @@
+SD, σ
+
+A low standard deviation indicates that the data points tend to be close to the mean (aka expected value).
+
+A useful property of the standard deviation is that, unlike the variance, it is expressed in the same units as the data.
+
+SD is commonly used to measure confidence in statistical conclusions
+    -> standard error
+    
+In finance, standard deviation is often used as a measure of the risk associated with price-fluctuations of a given asset     
