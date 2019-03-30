@@ -25,14 +25,17 @@ Qualitiative (categorical) vs quantitative variables.
        
        
                   
-Levels of measurement (notes/science/mathematics/statistics/level-of-measurement)
+Levels of measurement 
+    -->  notes/science/mathematics/statistics/level-of-measurement
   - Nominal scale
       - labels
       - no addtion/subtraction
       - no natural sense of ordering.
   - Ordinal scale
        - ordered, but no (sense of) distance
-           (for example: very poor, poor, average, good, very good)
+           (for example:
+             Lieutenant, Captain, Major //
+             very dissatisfied, somewhat dissatisfied, neutral, somewhat favorable, very favorable)
   - Interval scale
        - numeric scale with sense of distance
        - Unlike ratio scale, interval scales don't have zero point (multiplication not allowd)
