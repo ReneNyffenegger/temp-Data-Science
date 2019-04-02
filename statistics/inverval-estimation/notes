@@ -1,0 +1,10 @@
+Interval estimation is the use of sample data to calculate an interval of plausible values of an unknown population parameter; 
+
+Interval estimation can be contrasted with point estimation, which gives a single value.
+
+Forms of interval estimation are:
+  - confidence intervals (a frequentist method)
+  - credible intervals (a Bayesian method)
+  - tolerance intervals (an estimate of a population); and
+  - prediction intervals (an estimate of a future observation, used mainly in regression analysis).
+  
