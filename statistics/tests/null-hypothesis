@@ -6,4 +6,9 @@ First statistical hypothesis testing
    1629 - 1710: In all of the 82 years, more males born in London than females.
    With valid null hypothesis, the likelyhood for this outcome 0.5^82 (= p-value)
    
-   
+Confidence interval
+-------------------
+   Confidence intervals are closely related to statistical significance testing.
+   For example, if for some estimated parameter θ one wants to test the null
+   hypothesis that θ = 0 against the alternative that θ ≠ 0, then this test can be
+   performed by determining whether the confidence interval for θ contains 0.
