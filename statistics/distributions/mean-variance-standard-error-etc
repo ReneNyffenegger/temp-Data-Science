@@ -1,0 +1,7 @@
+mean = expected value = E(X)
+
+variance = E[ (X-mean)^2 ] = E[X^2] - mean^2
+
+standard deviation = sqrt(variance)
+
+standard error = standard deviation / n^2  ( n = number of data points?)
