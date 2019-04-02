@@ -1,5 +1,8 @@
 The standard error is measures the accuracy with which a sample represents a population.
 
+The SE should not be used without indicating what parameter interval is being estimated:
+  Every sample statistic can be used to estimate an SE (mean, slope of regression line, etc.)
+
 A sample mean deviates from the actual mean of a population; this deviation is the standard error.
 
 The SE is always an estimator of a population characteristic; it is not a descriptive statistic -
@@ -8,6 +11,11 @@ it is an inferential statistic.
 The SE is an estimate of the interval into which a population parameter will probably fall.
 The SE also enables the investigator to choose the probability that the parameter will
 fall within the estimated interval, usually called the "confidence interval."
+
+Therefore:
+  the SE has nothing to do with standards or with
+  errors; it has to do with predicting confidence
+  intervals from samples.
 
 
 Relationship to standard deviation
@@ -44,3 +52,7 @@ Here is a statement containing the SE:
   This implies that the mean of the population from which the sample
   was randomly taken will fall, with 95% probability, in the interval of
   73 ± (1.96 x 3), which is from 67.12 to 78.88. 
+  
+  Technically the statement should be: 95 out of 100 confidence
+  intervals calculated in this manner will
+  include the population parameter
