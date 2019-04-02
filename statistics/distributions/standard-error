@@ -2,6 +2,14 @@ The standard error is measures the accuracy with which a sample represents a pop
 
 A sample mean deviates from the actual mean of a population; this deviation is the standard error.
 
+The SE is always an estimator of a population characteristic; it is not a descriptive statistic -
+it is an inferential statistic.
+
+The SE is an estimate of the interval into which a population parameter will probably fall.
+The SE also enables the investigator to choose the probability that the parameter will
+fall within the estimated interval, usually called the "confidence interval."
+
+
 Relationship to standard deviation
 ----------------------------------
   Standard error = standard deviation devided by the square root of the sample size
