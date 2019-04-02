@@ -7,3 +7,12 @@ Relationship to standard deviation
   Standard error = standard deviation devided by the square root of the sample size
   --> The more data points involved in the calculations of the mean,
       the smaller the standard error tends to be.
+
+Feinstein noted:
+  A standard error has nothing to do with
+  standards, with errors, or with the communication
+  of scientific data. The concept is an
+  abstract idea, spawned by the imaginary
+  world of statistical inference and pertinent
+  only when certain operations of that imaginary world
+  are met in scientific reality
