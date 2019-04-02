@@ -1,0 +1,16 @@
+SD and SE appear to be very similar .. they are quite similar, but are used differently.
+
+SE = SD / sqrt(n)  
+   standard error is equal to the standard deviation
+   divided by the square root of the sample size, n.
+   -> The larger the sample size, the smaller the standard error.
+                   
+
+
+The standard deviation is a measure of the variability of the sample.
+The standard error is a measure of the variability of the sampling distribution.
+ 
+Just as the standard deviation is a measure of the dispersion of values in the sample,
+the standard error is a measure of the dispersion of values in the sampling distribution.
+  That is, of the dispersion of means of samples if a large number of different
+  samples had been drawn from the population.
