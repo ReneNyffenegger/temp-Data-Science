@@ -2,3 +2,5 @@ When an infinite number of successive random samples are taken from a population
 the sampling distribution of the means of those samples will become approximately
 normally distributed with mean μ and standard deviation σ/√ N as the
 sample size (N) becomes larger, irrespective of the shape of the population distribution.
+--> This is why rolling the dice n times for m repetitions the plot of the sum
+    of the n repetiosn becomes bell shaped (normal).
