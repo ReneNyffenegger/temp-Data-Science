@@ -32,3 +32,15 @@ Glanz
   It makes their data look better [...]
   data should never be summarized with the standard
   error of the mean.
+
+
+Example
+-------
+
+Here is a statement containing the SE:
+  The mean of the sample was 73 mg/dL, with an SE of the mean of
+  3 mg/dL.
+  
+  This implies that the mean of the population from which the sample
+  was randomly taken will fall, with 95% probability, in the interval of
+  73 ± (1.96 x 3), which is from 67.12 to 78.88. 
