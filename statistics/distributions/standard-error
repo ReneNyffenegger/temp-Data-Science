@@ -1,3 +1,5 @@
 Relationship to standard deviation
 ----------------------------------
   Standard error = standard deviation devided by the square root of the sample size
+  --> The more data points involved in the calculations of the mean,
+      the smaller the standard error tends to be.
