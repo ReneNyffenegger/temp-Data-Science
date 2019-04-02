@@ -4,3 +4,7 @@ normally distributed with mean μ and standard deviation σ/√ N as the
 sample size (N) becomes larger, irrespective of the shape of the population distribution.
 --> This is why rolling the dice n times for m repetitions the plot of the sum
     of the n repetiosn becomes bell shaped (normal).
+
+
+ A second generalization from the central limit theorem is that as n
+ increases, the variability of sample means decreases.
