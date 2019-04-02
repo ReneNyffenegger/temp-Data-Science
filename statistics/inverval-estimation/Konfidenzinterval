@@ -6,5 +6,10 @@ der Grundgesamtheit einschliesst.
 
 Das Konfidenzintervall wird auch als Vertrauensintervall oder Erwartungsbereich bezeichnet.
 
+Confidence intervals are closely related to statistical significance testing.
+For example, if for some estimated parameter θ one wants to test the null
+hypothesis that θ = 0 against the alternative that θ ≠ 0, then this test can be
+performed by determining whether the confidence interval for θ contains 0.
+
 ... Offenbar wird eine Zahl mit einer unteren und oberen Grenze (die eben dieses Interval einschliest)
 versehen ...
