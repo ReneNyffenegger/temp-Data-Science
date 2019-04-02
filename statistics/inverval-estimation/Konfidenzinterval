@@ -20,3 +20,8 @@ Relationship to standard error
   The SE is an estimate of the interval into which a population parameter will probably fall.
   The SE also enables the investigator to choose the probability that the parameter will
   fall within the estimated interval, usually called the "confidence interval."
+
+Learning about population parameter
+-----------------------------------
+   Convidence interval is one (of two) ways to learn about a population parameter.
+  (The other is hypothesis testing)
