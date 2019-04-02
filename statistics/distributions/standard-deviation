@@ -1,5 +1,8 @@
 SD, σ
 
+The standard deviation measures the dispersion of a dataset relative to
+its mean and is calculated as the square root of the variance. 
+
 A low standard deviation indicates that the data points tend to be close to the mean (aka expected value).
 
 A useful property of the standard deviation is that, unlike the variance, it is expressed in the same units as the data.
