@@ -1,3 +1,6 @@
+The variance is always a positive number.
+
 Variance is the expectation of the squared deviation of a random variable from its mean. 
 
-Variance is not expressed in the same units as the data (unlike the standard deviation).
+Variance is not expressed in the same units as the data (unlike the standard deviation)
+Variance also has a differentdifferent units than the mean.
