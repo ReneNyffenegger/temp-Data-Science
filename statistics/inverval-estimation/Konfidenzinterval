@@ -13,3 +13,10 @@ performed by determining whether the confidence interval for θ contains 0.
 
 ... Offenbar wird eine Zahl mit einer unteren und oberen Grenze (die eben dieses Interval einschliest)
 versehen ...
+
+Relationship to standard error
+------------------------------
+
+  The SE is an estimate of the interval into which a population parameter will probably fall.
+  The SE also enables the investigator to choose the probability that the parameter will
+  fall within the estimated interval, usually called the "confidence interval."
