@@ -1,4 +1,14 @@
 The standard error is measures the accuracy with which a sample represents a population.
+  The larger the standard error, the wider the confidence interval about the statistic.
+  In fact, the confidence interval can be so large that it is as large as the full range of values,
+  or even larger.
+  In that case, the statistic provides no information about the location of the population parameter.
+
+The standard error of the mean (SEM) can provide a rough estimate of the interval
+in which the population mean is likely to fall.
+The SEM, like the standard deviation, is multiplied by 1.96 to obtain an estimate
+of where 95% of the population sample means are expected to fall in the theoretical sampling distribution.
+
 
 The SE should not be used without indicating what parameter interval is being estimated:
   Every sample statistic can be used to estimate an SE (mean, slope of regression line, etc.)
@@ -8,6 +18,7 @@ A sample mean deviates from the actual mean of a population; this deviation is t
 The SE is always an estimator of a population characteristic; it is not a descriptive statistic -
 it is an inferential statistic.
 
+Every inferential statistic has an associated standard error.
 The SE is an estimate of the interval into which a population parameter will probably fall.
 The SE also enables the investigator to choose the probability that the parameter will
 fall within the estimated interval, usually called the "confidence interval."
