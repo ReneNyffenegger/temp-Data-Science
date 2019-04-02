@@ -1,0 +1,13 @@
+0th moment             : total probablity == 1
+1st moment             : mean
+2nd central moment     : variance                  called central because its "about the mean", not about 0.
+3rd standardized moment: skewness
+4th standardized moment: kurtosis
+
+For a probability on a bounded interval, the collection of all the moments (of all orders, from 0 to ∞)
+uniquely determines the distribution (Hausdorff moment problem).
+The same is not true on unbounded intervals (Hamburger moment problem).
+
+In probability theory and statistics, a standardized moment
+of a probability distribution is a moment (normally a higher
+degree central moment) that is normalized. 
