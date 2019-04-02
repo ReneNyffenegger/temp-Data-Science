@@ -8,3 +8,8 @@ SD is commonly used to measure confidence in statistical conclusions
     -> standard error
     
 In finance, standard deviation is often used as a measure of the risk associated with price-fluctuations of a given asset     
+
+
+Relationship to standard error
+------------------------------
+  Standard error = standard deviation devided by the square root of the sample size
