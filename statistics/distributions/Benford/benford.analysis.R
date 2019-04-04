@@ -1,6 +1,6 @@
 library(benford.analysis)
-data(corporate.payment)
 
+data(corporate.payment)
 cp <- benford(corporate.payment$Amount)
 
 x11()
