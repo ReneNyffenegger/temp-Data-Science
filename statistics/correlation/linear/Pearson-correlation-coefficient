@@ -1,0 +1,16 @@
+Pearson correlation coefficient (PCC)
+
+Aka
+   Pearson's r, 
+   Pearson product-moment correlation coefficient (PPMCC) 
+   
+The PCC is a measure of the linear correlation between two variables X and Y.
+
+The PCC is the covariance of the two variables divided by the product of their standard deviations. 
+
+The form of the definition involves a "product moment", that is, the mean (the first moment about the origin)
+of the product of the mean-adjusted random variables; hence the modifier product-moment in the name. 
+
+According to the Cauchy–Schwarz inequality, the PCC has a value between +1 and −1,
+where 1 is total positive linear correlation, 0 is no linear correlation,
+and −1 is total negative linear correlation.
