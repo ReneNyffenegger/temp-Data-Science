@@ -1,3 +1,5 @@
+The Central Limit Theorem:  The basis of much of statistical inference and how we get those 95% confidence intervals. 
+
 When an infinite number of successive random samples are taken from a population,
 the sampling distribution of the means of those samples will become approximately
 normally distributed with mean μ and standard deviation σ/√ N as the
