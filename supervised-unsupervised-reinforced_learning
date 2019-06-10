@@ -1,0 +1,7 @@
+In a SUPERVISED learning model, the algorithm learns on a LABELED dataset.
+
+An UNSUPERVISED model, in contrast, provides UNLABELED data that the algorithm
+tries to make sense of by extracting features and patterns on its own.
+
+In REINFORCEMENT learning trains an algorithm with a REWARD system, providing
+feedback when an artificial intelligence agent performs the best action in a particular situation.
