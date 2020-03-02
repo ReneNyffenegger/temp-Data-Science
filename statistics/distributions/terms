@@ -3,13 +3,20 @@ median:              ....
 variance:            second moment of the pmf or pdf about the mean. Measure of a distribution's dispersion.
 skewness:            a measure of the extent to which a pmf or pdf leans to one side of its mean. The third standardized moment of the distribution.
 
-                        Positive skew: "longer" tail extends to positive direction. Apparently, in normal like distributions, positive
+                        Positive skew: "longer" tail extends to positive direction.
+                        Apparently, in normal like distributions, positive
                         skews are found more often than negative skews
 
-kurtosis:            a measure of the fatness of the tails of a pmf or pdf. The fourth standardized moment of the distribution
+kurtosis:            a measure of the fatness of the tails of a pmf or pdf.
+
+                     κυρτός: "curved, arching
+
+                     The fourth standardized moment of the distribution
                         
                          Kurtosis measures how fat or thin the tails of a
-                         distribution are relative to a normal distribution. 
+                         distribution are relative to a normal distribution.
+                         
+                         Kortosis has to do with outliers
 
                             leptokurtic: Distributions with long tails
                             platykurtic: Distributions with short tails 
